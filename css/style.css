@@ -1,0 +1,27 @@
+.text {
+  font-size: 2rem;
+  line-height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: normal;
+  src: local("Roboto Lightitalic"),
+        local("Roboto-Lightitalic"),
+        url("../font/Roboto-LightItalic.woff2")format('woff2'),
+        url("../font/Roboto-LightItalic.woff") format('woff'),
+        url("../font/Roboto-LightItalic.eot") format('eot');
+  font-display: swap;
+}
+
+.text2 {
+  font-size: 2rem;
+  line-height: 80%;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Sofia Sans Condensed', sans-serif;
+  font-weight: 200;
+}
